@@ -24,6 +24,7 @@ import ckeditor5SpecialCharactersDll from "@ckeditor/ckeditor5-special-character
 import ckeditor5TableDll from "@ckeditor/ckeditor5-table/build/table.js";
 import ckeditor5WordCountDll from "@ckeditor/ckeditor5-word-count/build/word-count.js";
 import ckeditor5MaximumLengthDll from "@reinmar/ckeditor5-maximum-length/build/maximum-length.js";
+import ckeditor5SourceEditingDll from "@ckeditor/ckeditor5-source-editing/build/source-editing.js";
 import { StrapiMediaLib } from "./plugins/StrapiMediaLib";
 
 const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
@@ -49,6 +50,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableColumnResize,
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
+      window.CKEditor5.sourceEditing.SourceEditing,
       StrapiMediaLib
     ],
     toolbar: [
@@ -60,7 +62,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'link', 'strapiMediaLib', 'insertTable',
       '|',
-      'bulletedList', 'numberedList'
+      'bulletedList', 'numberedList',
+      '|',
+      'sourceEditing',
     ],
     heading: {
       options: [
@@ -118,6 +122,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableColumnResize,
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
+      window.CKEditor5.sourceEditing.SourceEditing,
       StrapiMediaLib
     ],
     toolbar: [
@@ -129,7 +134,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'link', 'strapiMediaLib', 'mediaEmbed', 'blockQuote', 'insertTable', 'codeBlock',
         '|',
-        'bulletedList', 'numberedList', 'outdent', 'indent'
+        'bulletedList', 'numberedList', 'outdent', 'indent',
+        '|',
+        'sourceEditing',
     ],
     heading: {
       options: [
@@ -212,6 +219,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.highlight.Highlight,
+      window.CKEditor5.sourceEditing.SourceEditing,
       StrapiMediaLib
     ],
     toolbar: {
@@ -230,7 +238,9 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'alignment',
         '|',
-        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent', 
+        'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent',
+        '|',
+        'sourceEditing',
       ],
       shouldNotGroupWhenFull: true
     },
