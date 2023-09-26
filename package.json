@@ -1,6 +1,6 @@
 {
   "name": "@zam/strapi-plugin-ckeditor",
-  "version": "0.0.9-beta.0",
+  "version": "0.0.9-beta.1",
   "description": "CKEditor 5 custom field for Strapi.",
   "strapi": {
     "name": "ckeditor",
@@ -61,6 +61,7 @@
     "@ckeditor/ckeditor5-upload": "^39.0.2",
     "@ckeditor/ckeditor5-word-count": "^39.0.2",
     "@reinmar/ckeditor5-maximum-length": "^0.0.1",
+    "@zam/ckeditor5-ffxiv-lodestone-tooltip": "^0.0.1-beta.0",
     "ckeditor5": "^39.0.2"
   },
   "peerDependencies": {
@@ -68,7 +69,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ckeditor/strapi-plugin-ckeditor.git"
+    "url": "https://github.com/zamnetwork/strapi-plugin-ckeditor.git"
   },
   "author": "CKSource (http://cksource.com/)",
   "homepage": "https://market.strapi.io/plugins/@ckeditor-strapi-plugin-ckeditor",
