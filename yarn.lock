@@ -370,13 +370,14 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@zam/ckeditor5-ffxiv-lodestone-tooltip@^0.0.1-beta.0":
-  version "0.0.1-beta.0"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-0.0.1-beta.0.tgz#aa3d36be712b62587217c2ea77e134f5cfc02d00"
-  integrity sha512-t8x0DF8MmQDSqbmr+cVdzBL4j8s5plPP6UMTzwrRmQL59k3/ckN7/Sad/6/xdNPaSpQVZpL0Qm/0QgYrqQBYIw==
+"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.0.tgz#76aeddf2858785cc84ecf1485cd3f0553b336501"
+  integrity sha512-/qnxUFY19gQxnzkGpYWHqujBWuVs0HMC/62a3O1OJ0/JKLkqdDbKnksXiLvJ02WWV5vSkUke61stkJEuA6RlRA==
   dependencies:
     "@ckeditor/ckeditor5-theme-lark" "39.0.2"
     ckeditor5 "39.0.2"
+    lodash.debounce "^4.0.8"
 
 abab@^2.0.3, abab@^2.0.5:
   version "2.0.6"
@@ -631,6 +632,11 @@ lodash-es@4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash-es/-/lodash-es-4.17.21.tgz#43e626c46e6591b7750beb2b50117390c609e3ee"
   integrity sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw==
+
+lodash.debounce@^4.0.8:
+  version "4.0.8"
+  resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
+  integrity sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow==
 
 lodash@^4.7.0:
   version "4.17.21"
