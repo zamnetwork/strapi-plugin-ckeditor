@@ -25,6 +25,7 @@ import ckeditor5TableDll from "@ckeditor/ckeditor5-table/build/table.js";
 import ckeditor5WordCountDll from "@ckeditor/ckeditor5-word-count/build/word-count.js";
 import ckeditor5MaximumLengthDll from "@reinmar/ckeditor5-maximum-length/build/maximum-length.js";
 import ckeditor5SourceEditingDll from "@ckeditor/ckeditor5-source-editing/build/source-editing.js";
+import ckeditor5FFXIVLodestoneTooltipDll from "@zam/ckeditor5-ffxiv-lodestone-tooltip/build/ffxiv-lodestone-tooltip.js";
 import { StrapiMediaLib } from "./plugins/StrapiMediaLib";
 
 const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
@@ -51,6 +52,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.sourceEditing.SourceEditing,
+      window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
       StrapiMediaLib
     ],
     toolbar: [
@@ -65,6 +67,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       'bulletedList', 'numberedList',
       '|',
       'sourceEditing',
+      '|',
+      'ffxivLodestoneTooltip',
     ],
     heading: {
       options: [
@@ -123,6 +127,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.table.TableCaption,
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.sourceEditing.SourceEditing,
+      window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
       StrapiMediaLib
     ],
     toolbar: [
@@ -137,6 +142,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         'bulletedList', 'numberedList', 'outdent', 'indent',
         '|',
         'sourceEditing',
+        '|',
+        'ffxivLodestoneTooltip',
     ],
     heading: {
       options: [
@@ -220,6 +227,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.highlight.Highlight,
       window.CKEditor5.sourceEditing.SourceEditing,
+      window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
       StrapiMediaLib
     ],
     toolbar: {
@@ -241,6 +249,8 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         'bulletedList', 'numberedList', 'todoList', 'outdent', 'indent',
         '|',
         'sourceEditing',
+        '|',
+        'ffxivLodestoneTooltip',
       ],
       shouldNotGroupWhenFull: true
     },
