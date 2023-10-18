@@ -370,10 +370,10 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.2":
-  version "1.0.2"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.2.tgz#39a65113fa6b54e79c9a031bd6c0212557ce2493"
-  integrity sha512-QUt0+4zb9990bni5lZh89D8WZeXe6SRLoJI6ZYhYLysovdUKttYNGpG7mjT0XE3Kqio5kBY2YTep2nvAcClN6A==
+"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.3":
+  version "1.0.3"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.3.tgz#34d171b014e44d8d44ef64a5c5b160f481b926d1"
+  integrity sha512-xQ1/hDb77Fe25Wcxefp0agMoTcN06PS0DhLkzh5orb9z4ZQ04ZViy/ePxwK4MxEWeHRxIyNwiou8CkDReRx3TQ==
   dependencies:
     "@ckeditor/ckeditor5-theme-lark" "39.0.2"
     ckeditor5 "39.0.2"
