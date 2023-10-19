@@ -378,10 +378,10 @@
     "@ckeditor/ckeditor5-theme-lark" "39.0.2"
     ckeditor5 "39.0.2"
 
-"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.1":
-  version "1.0.1"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.1.tgz#f40bf5ffd1c84653540141cbe133d13e14a639b1"
-  integrity sha512-mvrpUURE2bVU8rNFiA6b5fpoKjLBU0WYxc4dJaeZ4r1xO0kbEbtgPiksjyzKPOsBjserQ8CWatpOTAr9cEZBbA==
+"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.3":
+  version "1.0.3"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.3.tgz#34d171b014e44d8d44ef64a5c5b160f481b926d1"
+  integrity sha512-xQ1/hDb77Fe25Wcxefp0agMoTcN06PS0DhLkzh5orb9z4ZQ04ZViy/ePxwK4MxEWeHRxIyNwiou8CkDReRx3TQ==
   dependencies:
     "@ckeditor/ckeditor5-theme-lark" "39.0.2"
     ckeditor5 "39.0.2"

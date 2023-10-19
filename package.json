@@ -1,6 +1,6 @@
 {
   "name": "@zam/strapi-plugin-ckeditor",
-  "version": "0.0.10-beta.0",
+  "version": "0.0.12-beta.0",
   "description": "CKEditor 5 custom field for Strapi.",
   "strapi": {
     "name": "ckeditor",
@@ -61,7 +61,7 @@
     "@ckeditor/ckeditor5-upload": "^39.0.2",
     "@ckeditor/ckeditor5-word-count": "^39.0.2",
     "@reinmar/ckeditor5-maximum-length": "^0.0.1",
-    "@zam/ckeditor5-ffxiv-lodestone-tooltip": "^1.0.1",
+    "@zam/ckeditor5-ffxiv-lodestone-tooltip": "^1.0.3",
     "@zam/ckeditor5-ffxiv-etro-embed": "^0.0.1-beta.0",
     "ckeditor5": "^39.0.2"
   },
