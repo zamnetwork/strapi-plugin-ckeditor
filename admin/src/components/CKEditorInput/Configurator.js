@@ -26,6 +26,7 @@ import ckeditor5WordCountDll from "@ckeditor/ckeditor5-word-count/build/word-cou
 import ckeditor5MaximumLengthDll from "@reinmar/ckeditor5-maximum-length/build/maximum-length.js";
 import ckeditor5SourceEditingDll from "@ckeditor/ckeditor5-source-editing/build/source-editing.js";
 import ckeditor5FFXIVLodestoneTooltipDll from "@zam/ckeditor5-ffxiv-lodestone-tooltip/build/ffxiv-lodestone-tooltip.js";
+import ckeditor5FFXIVEtroEmbedDll from "@zam/ckeditor5-ffxiv-etro-embed/build/ffxiv-etro-embed.js";
 import { StrapiMediaLib } from "./plugins/StrapiMediaLib";
 
 const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
@@ -53,6 +54,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.sourceEditing.SourceEditing,
       window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
+      window.CKEditor5.ffxivEtroEmbed.FFXIVEtroEmbed,
       StrapiMediaLib
     ],
     toolbar: [
@@ -68,7 +70,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       '|',
       'sourceEditing',
       '|',
-      'ffxivLodestoneTooltip',
+      'ffxivLodestoneTooltip', 'ffxivEtroEmbed'
     ],
     heading: {
       options: [
@@ -128,6 +130,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.wordCount.WordCount,
       window.CKEditor5.sourceEditing.SourceEditing,
       window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
+      window.CKEditor5.ffxivEtroEmbed.FFXIVEtroEmbed,
       StrapiMediaLib
     ],
     toolbar: [
@@ -143,7 +146,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'sourceEditing',
         '|',
-        'ffxivLodestoneTooltip',
+        'ffxivLodestoneTooltip', 'ffxivEtroEmbed'
     ],
     heading: {
       options: [
@@ -228,6 +231,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
       window.CKEditor5.highlight.Highlight,
       window.CKEditor5.sourceEditing.SourceEditing,
       window.CKEditor5.ffxivLodestoneTooltip.FFXIVLodestoneTooltip,
+      window.CKEditor5.ffxivEtroEmbed.FFXIVEtroEmbed,
       StrapiMediaLib
     ],
     toolbar: {
@@ -250,7 +254,7 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'sourceEditing',
         '|',
-        'ffxivLodestoneTooltip',
+        'ffxivLodestoneTooltip', 'ffxivEtroEmbed'
       ],
       shouldNotGroupWhenFull: true
     },
