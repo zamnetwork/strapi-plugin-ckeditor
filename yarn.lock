@@ -370,10 +370,10 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@zam/ckeditor5-ffxiv-etro-embed@^0.0.1-beta.0":
-  version "0.0.1-beta.0"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-etro-embed/-/ckeditor5-ffxiv-etro-embed-0.0.1-beta.0.tgz#fae00a0abffe507020a5335f3334276ae961b1d2"
-  integrity sha512-4mlJOCGw9l/i8OhNBmW8u4pjsj7+IyvH36AnW+b5G8LejgKfG3BFzRnv64as0gleq3RKOoC3X1w/BdZfkp77RA==
+"@zam/ckeditor5-ffxiv-etro-embed@^1.0.0":
+  version "1.0.0"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-etro-embed/-/ckeditor5-ffxiv-etro-embed-1.0.0.tgz#273da7dd2ea25a44d933c4dcf16792edf0f1e74a"
+  integrity sha512-csiAh4Y/3stQdZe/Zc8U2RkZj+TBAOGMjQz/2tehGF05euBI6pQ24xrjgivjRTATgtgiqFvWpJ7VE6T0W5eHaQ==
   dependencies:
     "@ckeditor/ckeditor5-theme-lark" "39.0.2"
     ckeditor5 "39.0.2"
