@@ -332,13 +332,6 @@
     ckeditor5 "40.0.0"
     lodash-es "4.17.21"
 
-"@ckeditor/ckeditor5-theme-lark@39.0.2":
-  version "39.0.2"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-theme-lark/-/ckeditor5-theme-lark-39.0.2.tgz#37e67ee3113c5fb385e66a2dad3de1033c786260"
-  integrity sha512-v6S3++hkoKgqV71BCafKWYmPA6o/X44kUzdahnFs1rYBM5WS87y9Jb0W8Rv8FXXD5QD0H2axtySw9S6HfYspQw==
-  dependencies:
-    "@ckeditor/ckeditor5-ui" "39.0.2"
-
 "@ckeditor/ckeditor5-theme-lark@40.0.0", "@ckeditor/ckeditor5-theme-lark@^40.0.0":
   version "40.0.0"
   resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-theme-lark/-/ckeditor5-theme-lark-40.0.0.tgz#b10d634a06595b4fef2d11b0691b0429bbf87fc0"
@@ -500,21 +493,21 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
-"@zam/ckeditor5-ffxiv-etro-embed@^1.0.0":
-  version "1.0.0"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-etro-embed/-/ckeditor5-ffxiv-etro-embed-1.0.0.tgz#273da7dd2ea25a44d933c4dcf16792edf0f1e74a"
-  integrity sha512-csiAh4Y/3stQdZe/Zc8U2RkZj+TBAOGMjQz/2tehGF05euBI6pQ24xrjgivjRTATgtgiqFvWpJ7VE6T0W5eHaQ==
+"@zam/ckeditor5-ffxiv-etro-embed@^1.1.0-beta.0":
+  version "1.1.0-beta.0"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-etro-embed/-/ckeditor5-ffxiv-etro-embed-1.1.0-beta.0.tgz#2f5f69a9dd4209fe9102a9636690117bf1590803"
+  integrity sha512-ILuR3rmcKvgNSSdFAkNuSHybfLYP3JjXf4aX0TNeAzOd5NHnJsx5o8y5p/77APVrFxm6+l0ltOzWzLyVNN7O7w==
   dependencies:
-    "@ckeditor/ckeditor5-theme-lark" "39.0.2"
-    ckeditor5 "39.0.2"
+    "@ckeditor/ckeditor5-theme-lark" "^40.0.0"
+    ckeditor5 "^40.0.0"
 
-"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.0.3":
-  version "1.0.3"
-  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.0.3.tgz#34d171b014e44d8d44ef64a5c5b160f481b926d1"
-  integrity sha512-xQ1/hDb77Fe25Wcxefp0agMoTcN06PS0DhLkzh5orb9z4ZQ04ZViy/ePxwK4MxEWeHRxIyNwiou8CkDReRx3TQ==
+"@zam/ckeditor5-ffxiv-lodestone-tooltip@^1.1.0-beta.0":
+  version "1.1.0-beta.0"
+  resolved "https://npm.k8s.zam.com/@zam%2fckeditor5-ffxiv-lodestone-tooltip/-/ckeditor5-ffxiv-lodestone-tooltip-1.1.0-beta.0.tgz#2e230364be8f63a0e1eb17d6ff152714c0ef2201"
+  integrity sha512-+5fW/iew3npna/bFa+V5eAIX5d6bcvgrJPukdVPMAl5S9KqCaC8xfXdnpc1R22Xxcg9tmVCobkW6IPo+0CtYOw==
   dependencies:
-    "@ckeditor/ckeditor5-theme-lark" "39.0.2"
-    ckeditor5 "39.0.2"
+    "@ckeditor/ckeditor5-theme-lark" "^40.0.0"
+    ckeditor5 "^40.0.0"
     lodash.debounce "^4.0.8"
 
 abab@^2.0.3, abab@^2.0.5:
@@ -562,25 +555,6 @@ browser-process-hrtime@^1.0.0:
   resolved "https://registry.yarnpkg.com/browser-process-hrtime/-/browser-process-hrtime-1.0.0.tgz#3c9b4b7d782c8121e56f10106d84c0d0ffc94626"
   integrity sha512-9o5UecI3GhkpM6DrXr69PblIuWxPKk9Y0jHBRhdocZ2y7YECBFCsHm79Pr3OyR2AvjhDkabFJaDJMYRazHgsow==
 
-ckeditor5@39.0.2, ckeditor5@>=35.1.0:
-  version "39.0.2"
-  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-39.0.2.tgz#29a1429b440ac548f5d73b8870a0a143fceb36d5"
-  integrity sha512-7wuhb5LYeAZ9PaEZlNNAOnfDLWozt3+tOdc1St7AYR4PO1UW/5crWHvs+6jejxB56Zk6LUaHUS6ECecdapihmA==
-  dependencies:
-    "@ckeditor/ckeditor5-clipboard" "39.0.2"
-    "@ckeditor/ckeditor5-core" "39.0.2"
-    "@ckeditor/ckeditor5-engine" "39.0.2"
-    "@ckeditor/ckeditor5-enter" "39.0.2"
-    "@ckeditor/ckeditor5-paragraph" "39.0.2"
-    "@ckeditor/ckeditor5-select-all" "39.0.2"
-    "@ckeditor/ckeditor5-typing" "39.0.2"
-    "@ckeditor/ckeditor5-ui" "39.0.2"
-    "@ckeditor/ckeditor5-undo" "39.0.2"
-    "@ckeditor/ckeditor5-upload" "39.0.2"
-    "@ckeditor/ckeditor5-utils" "39.0.2"
-    "@ckeditor/ckeditor5-watchdog" "39.0.2"
-    "@ckeditor/ckeditor5-widget" "39.0.2"
-
 ckeditor5@40.0.0, ckeditor5@^40.0.0:
   version "40.0.0"
   resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-40.0.0.tgz#0415efab6b11da48cc7d58229ce282e3587d2be8"
@@ -599,6 +573,25 @@ ckeditor5@40.0.0, ckeditor5@^40.0.0:
     "@ckeditor/ckeditor5-utils" "40.0.0"
     "@ckeditor/ckeditor5-watchdog" "40.0.0"
     "@ckeditor/ckeditor5-widget" "40.0.0"
+
+ckeditor5@>=35.1.0:
+  version "39.0.2"
+  resolved "https://registry.yarnpkg.com/ckeditor5/-/ckeditor5-39.0.2.tgz#29a1429b440ac548f5d73b8870a0a143fceb36d5"
+  integrity sha512-7wuhb5LYeAZ9PaEZlNNAOnfDLWozt3+tOdc1St7AYR4PO1UW/5crWHvs+6jejxB56Zk6LUaHUS6ECecdapihmA==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "39.0.2"
+    "@ckeditor/ckeditor5-core" "39.0.2"
+    "@ckeditor/ckeditor5-engine" "39.0.2"
+    "@ckeditor/ckeditor5-enter" "39.0.2"
+    "@ckeditor/ckeditor5-paragraph" "39.0.2"
+    "@ckeditor/ckeditor5-select-all" "39.0.2"
+    "@ckeditor/ckeditor5-typing" "39.0.2"
+    "@ckeditor/ckeditor5-ui" "39.0.2"
+    "@ckeditor/ckeditor5-undo" "39.0.2"
+    "@ckeditor/ckeditor5-upload" "39.0.2"
+    "@ckeditor/ckeditor5-utils" "39.0.2"
+    "@ckeditor/ckeditor5-watchdog" "39.0.2"
+    "@ckeditor/ckeditor5-widget" "39.0.2"
 
 color-convert@2.0.1:
   version "2.0.1"
